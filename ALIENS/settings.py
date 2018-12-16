@@ -20,6 +20,6 @@ class Settings():
 
         # set aliens.
         self.alien_speed_factor = 1
-        self.fleet_drop_speed = 10
+        self.fleet_drop_speed = 50
         # to right if fleet_direction is 1, go left if it's -1.
         self.fleet_direction = 1
