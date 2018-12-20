@@ -25,11 +25,13 @@ class Settings():
 
     def initialize_dynamic_settings(self):
         # initialization goes with game process.
-        self.ship_speed_factor = 1.5
+        self.ship_speed_factor = 3.0
         self.bullet_speed_factor = 3
         self.alien_speed_factor = 1
         # to right if fleet_direction is 1, go left if it's -1.
         self.fleet_direction = 1
+        # track score.
+        self.alien_points = 50
 
     def increase_speed(self):
         self.ship_speed_factor *= self.speedup_scale 
