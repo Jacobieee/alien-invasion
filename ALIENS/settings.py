@@ -14,7 +14,7 @@ class Settings():
         self.bullet_width = 3
         self.bullet_height = 15
         self.bullet_color = 60,60,60
-        self.bullets_allowed = 9
+        self.bullets_allowed = 7
 
         # set aliens.
         self.fleet_drop_speed = 20
@@ -42,4 +42,3 @@ class Settings():
         self.alien_speed_factor *= self.speedup_scale
 
         self.alien_points = int(self.alien_points * self.score_scale)
-        
